@@ -18,7 +18,7 @@
         <!--DO NOT FORGET TO REGISTER BROADCAST RECEIVER-->
         <receiver android:name=".utils.MyBroadcastReceiver">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.example.trannh08.ad007broadcastreceivers.mycustomintent" />
             </intent-filter>
         </receiver>
     </application>
